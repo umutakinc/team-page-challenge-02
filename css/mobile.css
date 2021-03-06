@@ -1,0 +1,36 @@
+.top-section{
+    display: flex;
+    flex-direction: column;
+    align-items: inherit;
+    justify-content: flex-start;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}   
+.top-section .info{
+    padding: 2rem 0 2rem 0;
+}
+.main-section div {
+    width: 50%;
+    height: 50%;
+    margin-right: 0; 
+}
+.main-section div p {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13.25;
+    position: relative;
+    top: -185px;
+    right: -50px;
+    transform: rotate(90deg);
+    text-transform: uppercase;
+}
+.main-section .pos-bottom {
+    position: inherit;
+}
+.main-section div:nth-child(2),
+.main-section div:nth-child(4),
+.main-section div:nth-child(6){
+    position: relative;
+    top: 55px;
+}
+    
